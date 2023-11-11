@@ -24,8 +24,7 @@ def clean(df,class1,class2,feature1,feature2):
     return df
 
 def signum(x):
-    if(x>0):return 1
-    elif(x==0):return 0
+    if(x>=0):return 1
     else: return -1
 
 
